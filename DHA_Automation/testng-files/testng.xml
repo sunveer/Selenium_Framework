@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Verify Test" verbose="1">
+ <listeners>
+    <listener class-name="util.CustomTestListener" />
+    <listener class-name="util.TestListenerAdapter" />
+  </listeners> 
+  <parameter name="Application_URL" value="http://www.seleniumeasy.com/test/" />
+  <parameter name="browser" value="Chrome" />
+
+<test name="Verify Test">
+	<classes>
+       <class name="scripts.SeleniumEasy" />
+    </classes>
+		
+</test>
+
+</suite>

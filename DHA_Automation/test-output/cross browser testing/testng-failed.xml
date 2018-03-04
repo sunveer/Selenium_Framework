@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [cross browser testing]">
+  <parameter name="Application_URL" value="https://loginstg.dha.gov.ae:8090/eservices/dhaweb/default.aspx"/>
+  <listeners>
+    <listener class-name="util.CustomTestListener"/>
+  </listeners>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="scripts.crossbrowser.ValidSignIn">
+        <methods>
+          <include name="setup"/>
+          <include name="aftersuite"/>
+          <include name="testVaidLogIn"/>
+          <include name="OpenApplication"/>
+          <include name="getTestresultStatus"/>
+        </methods>
+      </class> <!-- scripts.crossbrowser.ValidSignIn -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [cross browser testing] -->

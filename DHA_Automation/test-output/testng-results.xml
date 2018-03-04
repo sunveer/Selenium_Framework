@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Verify Test" duration-ms="41490" started-at="2018-03-04T04:59:22Z" finished-at="2018-03-04T05:00:03Z">
+    <groups>
+    </groups>
+    <test name="Verify Test" duration-ms="41490" started-at="2018-03-04T04:59:22Z" finished-at="2018-03-04T05:00:03Z">
+      <class name="scripts.SeleniumEasy">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.SeleniumEasy@1810399e]" name="setup" is-config="true" duration-ms="759" started-at="2018-03-04T04:59:21Z" finished-at="2018-03-04T04:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="OpenApplication(java.lang.String, java.lang.String)[pri:0, instance:scripts.SeleniumEasy@1810399e]" name="OpenApplication" is-config="true" duration-ms="34540" started-at="2018-03-04T04:59:22Z" finished-at="2018-03-04T04:59:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.seleniumeasy.com/test/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="testVaidLogIn()[pri:0, instance:scripts.SeleniumEasy@1810399e]" name="testVaidLogIn" duration-ms="5916" started-at="2018-03-04T04:59:56Z" finished-at="2018-03-04T05:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVaidLogIn -->
+        <test-method status="PASS" signature="getTestresultStatus(org.testng.ITestResult)[pri:0, instance:scripts.SeleniumEasy@1810399e]" name="getTestresultStatus" is-config="true" duration-ms="953" started-at="2018-03-04T05:00:02Z" finished-at="2018-03-04T05:00:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVaidLogIn status=SUCCESS method=SeleniumEasy.testVaidLogIn()[pri:0, instance:scripts.SeleniumEasy@1810399e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestresultStatus -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:scripts.SeleniumEasy@1810399e]" name="aftersuite" is-config="true" duration-ms="1243" started-at="2018-03-04T05:00:04Z" finished-at="2018-03-04T05:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- scripts.SeleniumEasy -->
+    </test> <!-- Verify Test -->
+  </suite> <!-- Verify Test -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Application_URL" value="https://loginstg.dha.gov.ae:8090/eservices/dhaweb/default.aspx"/>
+  <parameter name="browser" value="Chrome"/>
+  <test name="Validations test(failed)">
+    <classes>
+      <class name="scripts.Validations">
+        <methods>
+          <include name="testDRTPRegFullFlow"/>
+          <include name="setup"/>
+          <include name="aftersuite"/>
+          <include name="OpenApplication"/>
+          <include name="getTestresultStatus"/>
+        </methods>
+      </class> <!-- scripts.Validations -->
+    </classes>
+  </test> <!-- Validations test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

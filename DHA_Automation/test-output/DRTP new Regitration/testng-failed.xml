@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DRTP new Regitration]">
+  <parameter name="Application_URL" value="https://loginstg.dha.gov.ae:8090/eservices/dhaweb/default.aspx"/>
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" verbose="0" name="DRTP new Regitration(failed)">
+    <classes>
+      <class name="scripts.DRTPRegistration">
+        <methods>
+          <include name="setup"/>
+          <include name="testDRTPNewRegistration"/>
+          <include name="aftersuite"/>
+          <include name="OpenApplication"/>
+          <include name="getTestresultStatus"/>
+        </methods>
+      </class> <!-- scripts.DRTPRegistration -->
+    </classes>
+  </test> <!-- DRTP new Regitration(failed) -->
+</suite> <!-- Failed suite [DRTP new Regitration] -->
